@@ -1,0 +1,24 @@
+set realname = "Johan Ramne"
+set imap_user = johanramne@gmail.com
+set imap_pass = "tK3LE9JF"
+set spoolfile =imaps://imap.gmail.com:993/INBOX
+set smtp_url =smtp://johanramne@smtp.gmail.com:587/
+set folder =imaps://imap.gmail.com:993/
+set record="+[Gmail]/Sent Mail"
+set postponed="+[Gmail]/Drafts"
+set header_cache="~/.mutt/cache/headers"
+set message_cachedir="~/.mutt/cache/bodies"
+set certificate_file="~/.mutt/certificates"
+set ssl_starttls = yes
+set imap_check_subscribed
+
+set sort = threads
+set sort_aux =  reverse-last-date-received
+set sidebar_visible
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats
+set sidebar_short_path
+set sidebar_delim_chars="/"
+set editor = vim
+set smtp_authenticators = 'gssapi:login'
+# set <a href="http://www.mutt.org/doc/devel/manual.html#smtp-authenticators">smtp_authenticators</a> = 'gssapi:login'
